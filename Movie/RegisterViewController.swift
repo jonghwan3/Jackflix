@@ -24,6 +24,7 @@ class RegisterViewController: UIViewController {
         designTextField(textField: nicknameTextField, keyboardTypeNum: 0, placeHolder: "닉네임")
         designTextField(textField: locationTextField, keyboardTypeNum: 0, placeHolder: "위치")
         designTextField(textField: recCodeTextField, keyboardTypeNum: 0, placeHolder: "추천 코드 입력")
+        passwordTextField.isSecureTextEntry = true
         
         registerButton.setTitle("회원가입", for: .normal)
         registerButton.setTitleColor(UIColor.black, for: .normal)
